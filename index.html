@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* <!-- First page CSS start--> */
+.page1{
+    display: flex;
+    /* background-color: black; */
+    height: 700px;
+    background-color: aliceblue;
+    justify-content: center;
+}
+.div1{
+    background-color: olive;
+    justify-content: center;
+    width: 50%;
+    height: 700px;
+    text-align: center;
+}
+.div2{
+    width: 50%;
+    height: 500px;
+}
+.div3{
+    padding: 25%;
+}
+button{
+    background-color: rgb(15, 199, 174);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.para:hover{
+    text-decoration: underline;
+}
+/* <!-- First page CSS End--> */
+
+/* <!-- Second page CSS Start--> */
+
+.page2{
+    display: flex;
+    padding-top: 25px;
+}
+.about{
+    border: 1px solid black;
+}
+.menu{
+    background-color: olive;
+    width: 300px;
+    padding-top: 100px;
+}
+.menu img{
+    width: 100%;
+    margin-top: -100px;
+}
+.menu a{
+    display: block;
+    margin: 40px 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.menu a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+.content{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: grey;
+}
+.box{
+    display: flex;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 180px 200px;
+    gap: 30px;
+}
+.card{
+    background-color: coral;
+    padding: 20px;
+    width: 150px;
+    margin-left: 330px;
+    border-color: black;
+}
+.card:hover{
+    background-color:thistle;
+}
+/* Second page CSS End */
+
+/* Third page CSS Start */
+.page3{
+    display: flex;
+    padding-top: 25px;
+}
+/* .content{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: grey;
+} */
+.resume{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+.box1{
+    display: flex;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 180px 200px 300px;
+    gap: 30px;
+}
+.text{
+    background-color: coral;
+    padding: 20px;
+    width: 150px;
+    margin-left: 230px;
+    border-color: black;
+}
+.text:hover{
+    background-color: thistle;
+}
+/* Fourth page CSS Start */
+.page4{
+    display: flex;
+    padding-top: 25px;
+}
+.portfolio{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+.detail{
+    display: flex;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 280px 300px;
+    gap: 30px;
+}
+.project{
+    padding: 20px;
+    width: 250px;
+    margin-left: 230px;
+    border-color: black;
+}
+.project:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+/* Fourth page CSS End */
+
+/* Last page CSS Start */
+.page5{
+    display: flex;
+    padding-top: 25px;
+}
+.contact{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+.o{
+    font-size: 20px;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    margin-left: 15%;
+}
+.icon1{
+    font-size: 40px;
+    padding: 60px 50px 0px 40px;
+    display: flex;
+}
+.icon2{
+    font-size: 40px;
+    padding: 60px 50px 0px 40px;
+    display: flex;
+}
+.p{
+    font-size: 15px;
+    margin-left: 40px;
+}
+.q{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.end{
+    text-align: center;
+    padding-top: 20px;
+}
+    </style>
+</head>
+<body>
+<!-- First page HTML Start-->
+    <div class="page1">
+        <div class="div1">
+            <div class="div3">
+                <h2>Hi There!</h2>
+                <h1>I'm Daniyal</h1>
+                <h4>Web Designer</h4>
+                <p>I'm Daniyal Gulraiz. I'm Learning HTML, CSS and Web development.</p>
+               <Button class="para">More About Me</Button>
+           </div>
+        </div>
+        <div class="div2">
+            <img src="mypic.jpeg" alt="Picture" height="700px" width="650px">
+        </div>
+    </div>
+<!-- First page HTML End-->
+
+<!-- Second page HTML Start-->
+<div class="page2">
+    <div class="menu">
+        <img src="mypic.jpeg" alt="Picture">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">RESUME</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <div class="content">
+        <div class="about">
+            <h1>ABOUT ME</h1>
+        </div>
+        <p>I'm <b>Daniyal Gulraiz</b> Web Developer / Web Designer</p>
+        <div class="box">
+            <div class="card">
+                <h2>350+</h2>
+                <p>Projects done</p>
+            </div>
+            <div class="card">
+                <h2>20+</h2>
+                <p>Years of Experience</p>
+            </div>
+            <div class="card">
+                <h2>100+</h2>
+                <p>Satisfied Customers</p>
+            </div>
+            <div class="card">
+                <h2>30k</h2>
+                <p>Followers</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Second page HTML End-->
+
+<!-- Third page HTML Start-->
+<div class="page3">
+    <div class="menu">
+        <img src="mypic.jpeg" alt="Picture">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">RESUME</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <div class="content">
+        <div class="resume">
+             <h1>RESUME</h1>
+        </div>
+        <div class="box1">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, delectus.</p>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, delectus.</p>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, delectus.</p>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, delectus.</p>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, delectus.</p>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, delectus.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Third page HTML End-->
+
+<!-- Fourth page HTML Start -->
+<div class="page4">
+    <div class="menu">
+        <img src="mypic.jpeg" alt="Picture">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">RESUME</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <div class="content">
+        <div class="portfolio">
+             <h1>PORTFOLIO</h1>
+        </div>
+        <h2>My Projects</h2>
+        <div class="detail">
+            <div class="project">
+                <h2>Project 1</h2>
+                <img src="hand-painted-sunset.avif" alt="" height="200px" width="250px">
+            </div>
+            <div class="project">
+                <h2>Project 2</h2>
+                <img src="eyepic.jpg" alt="" height="200px" width="250px">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fourth page HTML End -->
+
+<!-- Last page HTML Start -->
+ <div class="page5">
+    <div class="menu">
+        <img src="mypic.jpeg" alt="Picture">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">RESUME</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <div class="content">
+        <div class="contact">
+             <h1>CONTACT</h1>
+        </div>
+        <div class="o">
+            <p>Feel free to contact me!</p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+        </div>
+        <div class="icon">
+            <div class="icon1">
+                <i class="fa-solid fa-phone"></i>
+                <div class="p">
+                    <p>Feel free to call!</p>
+                </div>
+            </div>
+            <div class="icon2">
+                <!-- <i class="fa-brands fa-whatsapp"></i> -->
+                <a href="https://wa.me/923704037248"><i class="fa-brands fa-whatsapp"></i></a>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <div class="q">
+                    <p>For More information message me on whatsapp!</p>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <h1>Thanks for Visiting!</h1>
+        </div>
+    </div>
+</body>
+</html>
+        
